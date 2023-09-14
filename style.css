@@ -1,1 +1,43 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
 
+ body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 15vh 1fr  15vh;
+ }
+
+ header{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*height: 5 vh;*/
+    align-items: center;
+ }
+
+ .logout{
+    justify-self: end;
+ }
+
+ main{
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: 1fr 3fr 1fr;
+ }
+
+footer{
+    background-color: chartreuse;
+}
+
+aside{
+    background-color: blueviolet;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    margin-top: 20px;
+}
